@@ -88,7 +88,7 @@ def conv(bot, update):
 					send=False
 					return
 			cmd=cmd[1:].lower()
-			if "hello" == cmd:
+			if "merhaba" == cmd:
 				res = "Merhaba dünya!"
 			elif "link" == cmd:
 				res = u"Grup linki: "
@@ -279,7 +279,7 @@ def conv(bot, update):
 					if u"defol" in tx or bot.first_name.lower() in tx:
 						res = u"Sie"
 					elif u"nasılsın" in tx or u"naber" in tx:
-						res = u"Bilemiyorum "+update.message.from_user.first_name.split(" ")[0]+u" ..."
+						res = u"Şükürü iyiyim sen nasılsın? "+update.message.from_user.first_name.split(" ")[0]+u" ..."
 					elif u"ne yapıyorsun" in res or u"napıyon" in tx:
 						res = u"Yuvarlanıp gidiyoruz işte, sen ne yapıyorsun?"
 					elif u"ağla" in tx:
