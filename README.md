@@ -1,3 +1,3 @@
 # Tg_Bot
 
-Bot Sahibi (Selin)[https://t.me/seliqwz]
+Bot Sahibi [Selin](https://t.me/seliqwz)
